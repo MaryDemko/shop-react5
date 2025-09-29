@@ -1,7 +1,7 @@
 const products = [
     {
         id: 1,
-        tittle: 'Puma ESS + HOODY FL',
+        title: 'Puma ESS + HOODY FL',
         price: 12000,
         image: '/public/assets/толстовка.jpg',
         description: 'Куртка Puma ESS + HOODY FL изготовлена из высококачественного материала. Оснащена капюшоном и большим карманом. Простой лаконичный дизайн с культовым логотипом.',
@@ -9,7 +9,7 @@ const products = [
     },
     {
         id: 2,
-        tittle: 'Кроссовки для бега',
+        title: 'Кроссовки для бега',
         price: 9000,
         image: '/public/assets/кроссы.jpeg',
         description: 'Удобые, практичные, стильные',
@@ -17,7 +17,7 @@ const products = [
     },
     {
         id: 3,
-        tittle: 'Беспроводные наушники',
+        title: 'Беспроводные наушники',
         price: 2900,
         image: '/public/assets/наушники.png',
         description: 'Результаты имеют значение, и когда у вас есть идеальные наушники, ничто не стоит между вами и вашей тренировкой.Наслаждайтесь!',
@@ -25,7 +25,7 @@ const products = [
     },
     {
         id: 4,
-        tittle: 'Беговая дорожка',
+        title: 'Беговая дорожка',
         price: 134000,
         image: '/public/assets/беговая дорожка.jpeg',
         description: 'Беговая дорожка – это тренажёр полукоммерческого использования. Превосходная модель для интенсивной и эффективной тренировки.',
@@ -33,7 +33,7 @@ const products = [
     },
     {
         id: 5,
-        tittle: 'Поясная сумка',
+        title: 'Поясная сумка',
         price: 2500,
         image: '/public/assets/сумка.png',
         description: 'Универсальная и стильная',
@@ -41,7 +41,7 @@ const products = [
     },
     {
         id: 6,
-        tittle: 'Часы для спорта',
+        title: 'Часы для спорта',
         price: 2700,
         image: '/public/assets/спорт часы.jpeg',
         description: 'Часы для активного отдыха. Водостойкие, прочные и долговечные модели.',

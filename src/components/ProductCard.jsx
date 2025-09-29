@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
- export const ProductCard = ({ product }) => {
+ export const ProductCard = ({ product, addToCart }) => {
 
   return (
     <div className='bg-white rounded shadow p-4'>
@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom'
       />
       <h3 className='mt-2 font-bold text-lg'>{product.title}</h3>
       <p className='text-gray-700'>{product.price} ₽</p>
+      <div className='mt-4 flex gap-4'>
       <Link
         to={`/product/${product.id}`}
         className='button_card mt-4 inline-block 
@@ -18,6 +19,8 @@ import { Link } from 'react-router-dom'
       >
         Подробнее
       </Link>
+      <button onClick={() => addToCart(product)} className='bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600'>Добавить в корзину</button>
+      </div>
     </div>
   )
 }
