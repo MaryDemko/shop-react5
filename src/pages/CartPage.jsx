@@ -8,10 +8,4 @@ export const CartPage = ({ cartItems, onUpdateQuantity, onRemoveItem }) => {
                 onUpdateQuantity={onUpdateQuantity}
                 onRemoveItem={onRemoveItem} />
         </div>
-    )
-}
-
-
-
-
-
+    )}
